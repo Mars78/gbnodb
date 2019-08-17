@@ -1,5 +1,13 @@
+<?php
+require_once "gb.php";
+if(!empty($_POST)){
+    save_m();
+}
+
+?>
+
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
